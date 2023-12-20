@@ -51,10 +51,10 @@
   margin: 50px 0;
 } */
 #home img {
-  border-radius: 50%;
+  border-radius: 80%;
   width: 40%;
 
-  box-shadow: rgba(227, 69, 169, 0.6) 0px 0px 20px -5px;
+  box-shadow: rgba(227, 69, 169, 0.6) 5px 4px 20px -5px;
 }
 .home_button {
   display: flex;
@@ -63,7 +63,11 @@
   margin-top: 30px;
   gap: 20px;
 }
+.home-img:hover{
+  box-shadow: rgba(210, 120, 210, 0.9) 0px 0px 10px 0px;
+  transform: scale(1.3);
 
+}
 #home button {
   width: 40%;
   -webkit-appearance: button;
@@ -98,11 +102,7 @@
   box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
 }
 
-/* #home a:hover {
-  transform: scale(1.05);
-  transition: all 0.4s ease-in-out;
-  box-shadow: 20px 20px 60px #1f2634;
-} */
+
 #home button:hover {
   transform: scale(1.05);
   transition: all 0.4s ease-in-out;
