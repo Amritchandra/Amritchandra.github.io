@@ -17,9 +17,9 @@ const data = [
     },
     {
         img: greenParadise,
-        projectTitle: "Gem Garden Jewellary ",
+        projectTitle: "Gem Garden Jewellery ",
         techStack: ["HTML", "CSS", "JavaScript", "React", "Redux"],
-        description: "Explore the exquisite world of Gem Garden, an online jewelry website where you can effortlessly purchase the jewelry of your choice from the comfort of your home.",
+        description: "Explore the exquisite world of Gem Garden, an online jewelry website where you can effortlessly purchase the jewellery of your choice from the comfort of your home.",
         githubLink: "https://github.com/Amritchandra/Gem-Garden-Project",
         appLink: "https://gem-garden-jewelry-store.vercel.app/"
     },
