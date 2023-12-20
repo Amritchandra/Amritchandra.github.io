@@ -102,7 +102,7 @@ function Navbar() {
                         >
                             Resume
                         </button>
-                        <a href="https://github.com/1ashutoshverma" target="_blank" className="nav-link github" style={{ margin: "auto", width: "100px" }}
+                        <a href="https://github.com/AmritChandra" target="_blank" className="nav-link github" style={{ margin: "auto", width: "100px" }}
                             onClick={() => { setBurger(!burger) }}
                         >
                             GitHub
