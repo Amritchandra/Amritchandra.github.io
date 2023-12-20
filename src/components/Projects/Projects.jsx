@@ -2,7 +2,7 @@ import React from 'react'
 import greenParadise from "./projectImages/Gemgarden.png"
 import woodFans from "./projectImages/Pharmeasy.png"
 import bewakoof from "./projectImages/Pharmeasy.png"
-import myPortfolio from "./projectImages/Gemgarden.png"
+import myPortfolio from "./projectImages/Portfolio.png"
 import "./Project.css"
 import { motion } from "framer-motion"
 
@@ -32,11 +32,11 @@ const data = [
         appLink: "https://magnificent-pie-033e94.netlify.app/"
     }, {
         img: myPortfolio,
-        projectTitle: "Gem Garden Jewellary ",
-        techStack: ["HTML", "CSS", "JavaScript", "React", "Redux"],
-        description: "Explore the exquisite world of Gem Garden, an online jewelry website where you can effortlessly purchase the jewelry of your choice from the comfort of your home.",
-        githubLink: "https://github.com/Amritchandra/Gem-Garden-Project",
-        appLink: "https://gem-garden-jewelry-store.vercel.app/"
+        projectTitle: "My Portfolio",
+        techStack: ["HTML", "CSS", "JavaScript", "React"],
+        description: "Explore My Portfolio, I am a Full Stack Developer.With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and want to achieve great things.",
+        githubLink: "https://github.com/Amritchandra/Amritchandra.github.io",
+        appLink: "https://amritchandra.github.io/"
     }
 ]
 
