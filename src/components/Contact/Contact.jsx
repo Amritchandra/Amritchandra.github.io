@@ -1,9 +1,9 @@
 //import React from 'react'
 import "./Contact.css"
 import Phone from './contactImages/Phone.png'
-import Email from './contactImages/Email.png'
+import Email from './contactImages/x.png'
 import LinkedIn from './contactImages/LinkedIn.png'
-import Github from './contactImages/Github.png'
+import Github from './contactImages/y.png'
 
 function Contact() {
 
@@ -29,7 +29,7 @@ function Contact() {
                     <p>AmritChandraKumar</p>
                 </div>
                 <div id="contact-email" className='contactCard'>
-                    <img src={Email} alt="" />
+                    <img src={Email} alt="email" />
                     <h5>Email</h5>
                     <p>amritchandrakumar123@gmail.com</p>
                 </div>
