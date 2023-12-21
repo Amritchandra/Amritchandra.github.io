@@ -10,16 +10,12 @@ function Navbar() {
         link.href = resume;
         link.click();
         window.open(
-            "https://drive.google.com/file/d/1abbaraUhtK-eh5ztzdyRocBIZBP0VqVB/view?usp=sharing",
+            "https://drive.google.com/file/d/1HRf4vYJ-mlfACRFLDuNlHwIJ7tNRajNI/view?usp=sharing",
             "_blank"
         );
     };
 
-    // const downloadHandle = () => {
-    //     window.open("https://drive.google.com/file/d/15AOvJU2Tmv30EjbsQn1AcCG01TLKP8eI/view", "_blank")
-    // }
-
-    //==============>
+   
     const [activeSection, setActiveSection] = useState('home');
 
     useEffect(() => {

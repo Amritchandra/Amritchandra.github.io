@@ -12,10 +12,11 @@ function HomeSection() {
         link.click();
 
         window.open(
-            "https://drive.google.com/file/d/1abbaraUhtK-eh5ztzdyRocBIZBP0VqVB/view?usp=sharing",
+            "https://drive.google.com/file/d/1HRf4vYJ-mlfACRFLDuNlHwIJ7tNRajNI/view?usp=sharing",
             "_blank"
         );
     };
+    
 
     const githubHandle = () => {
         window.open(
