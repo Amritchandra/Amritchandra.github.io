@@ -2,12 +2,372 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/Images/Amrit_image.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amrit Chandra Kumar(Portfolio)</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="index.js"></script>
+    <!-- =====BOX ICONS===== -->
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/img/Amrit_image.jpg" type="image/jpg">
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Amrit chandra Kumar (Portfolio)</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo"><img src="./assets/img/log.png" alt="" srcset=""></a>
+          <!-- <h1>AmritChandra</h1> -->
+          
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Project</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi There! 👋🏻 <span class="home__title-color"></span><br />
+            
+
+
+            <div class="wrapper">
+              <ul class="dynamic-txts">
+                <li><span>I'am</span></li>
+                <li><span>Amrit  </span></li>
+                <li><span> Full-Stack</span></li>
+                <li><span> Web Developer</span></li>
+                
+              </ul> 
+              
+              </div>
+          </h1>
+          <a href="./assets/Amrit-Chandra-Kumar-Resume.pdf"  target="_blank"onclick="openResume()" download class="button">Resume</a> 
+          <!-- <a href="https://drive.google.com/file/d/1lNCBG7fQ1ksoCvpQfmQOURAQ9gqrPlty/view?usp=sharing"  target="_blank" download class="button">Resume</a> -->
+            <!-- <button id="resume-button-1" > <a id="resume-link-1"
+             href="./assets/Amrit-Chandra-Kumar-Resume.pdf" 
+                                download >Resume</a></button>   -->
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/amrit-chandra-kumar-dev/" target="_blank"class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/amritchandra" target="_blank" class="home__social-icon"><i class="bx bxl-github"></i></a>
+        </div>
+           
+
+        <div class="home__img">
+         <img src="./assets/img/Amrit_image.jpg" alt="" srcset="">
+         
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+
+          <div class="about-wrapper">
+            <h2 class="about__subtitle">I'am Amrit Chandra Kumar </h2>
+            <p class="about__text">
+              Specialized in MERN stack, like to write code clean and optimized, experienced inexecuting solo and collaborative projects. Possesses strong problem-solving abilities, keen attention to detail,and a passion for crafting exceptional web solutions.With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and want to achieve great things. 
+            </p>
+            <div class="about_mail" > <a href="mailto:amritchandrakumar123@gmail.com"><i class='bx bxs-envelope'></i>amritchandrakumar123@gmail.com </a> <br>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Frontend</h2>
+            
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+            
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-react skills__icon'></i>
+                <span class="skills__name">React</span>
+              </div>
+            
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-bootstrap skills__icon'></i>
+                <span class="skills__name">Bootstrap</span>
+              </div>
+            
+            </div>
+          </div>
+
+          <div class="backend">
+            <div>
+                <h2 class="skills__subtitle">Backend</h2>
+                
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <i class='bx bxl-nodejs skills__icon'></i>
+                    <span class="skills__name">Node.js</span>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <img class="skills__icon" src="https://dev-hardik.netlify.app/assets/img/express.png"  alt="" srcset="">
+                    <span class="skills__name">Express.js</span>
+                  </div>
+                
+                </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <i class="fa-brands fa-envira skills__icon"></i>
+                    <span class="skills__name">MongoDB</span>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <i class='bx bxl-redux skills__icon'></i>
+                    <span class="skills__name">Redux</span>
+                  </div>
+                
+                </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <i class='bx bxl-git skills__icon'></i>
+                    <span class="skills__name">Git</span>
+                  </div>
+                
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Project</h2>
+
+        <div class="work__container">
+          <div class="work_div">
+            <a href="" class="work__img">
+              <img src="assets/img/Pharmeasy.png" alt="" />
+            </a>
+            <h2 class="project_name">Pharmeasy Clone</h2>
+            <h4>
+              PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products.
+            </h4>
+<p>Tech Stack : HTML | CSS | JavaScript</p>
+<div class="btn-div">
+  <a href="https://github.com/Amritchandra/Pharmeasy-clone" target="_blank"> <button class="button"><i class="fa-brands fa-github"></i>Github</button></a>
+  <a href="https://magnificent-pie-033e94.netlify.app/" target="_blank"><button class="button"><i class="fa-solid fa-link"></i>Live</button></a> 
+</div>
+        </div>
+        <div class="work_div">
+          <a href="" class="work__img">
+            <img src="assets/img/Gemgarden.png" alt="" />
+          </a>
+          <h2 class="project_name">Gem Garden Jewellery</h2>
+          <h4>
+            Explore the exquisite world of Gem Garden, an online jewelry website where you can effortlessly purchase the jewellery of your choice from the comfort of your home.
+          </h4>
+<p>Tech Stack : HTML | CSS | JavaScript | React | Redux</p>
+<div class="btn-div">
+<a href="https://github.com/Amritchandra/Gem-Garden-Project" target="_blank"> <button class="button"><i class="fa-brands fa-github"></i>Github</button></a>
+<a href="https://gem-garden-jewelry-store.vercel.app/" target="_blank"><button class="button"><i class="fa-solid fa-link"></i>Live</button></a> 
+</div>
+      </div>
+            <div class="work_div">
+                <a href="" class="work__img">
+                  <img src="assets/img/port.png" alt="" />
+                </a>
+       
+                <h2 class="project_name">My Portfolio</h2>
+                <h4>
+                  Explore My Portfolio, I am a Full Stack Developer.With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and want to achieve great things.
+                </h4>
+    <p>Tech Stack : HTML | CSS | Javascript </p>
+<div class="btn-div">
+ <a href="https://github.com/Amritchandra/Amritchandra.github.io" target="_blank"> <button class="button"><i class="fa-brands fa-github"></i>Github</button></a>
+ <a href="https://amritchandra.github.io/" target="_blank"><button class="button"><i class="fa-solid fa-link"></i>Live</button></a> 
+</div>
+            </div>
+           
+            <div  class="work_div">
+                <a href="" class="work__img">
+                  <img src="assets/img/x2.png" alt="" />
+                </a>
+                <h2 class="project_name">skate board</h2>
+
+                <h4>
+                  This skate board e-commerce website that Skate board of different varieties.  Ensured efficient data retrieval and management of products.
+                </h4>
+    <p>Tech Stack : HTML | CSS | Javascript | React</p>
+    <div class="btn-div">
+      <a href="https://github.com/sbucche/Skate_Board_Project" target="_blank"> <button class="button"><i class="fa-brands fa-github"></i>Github</button></a>
+      <a href="https://retaxcrm.netlify.app/" target="_blank"><button class="button"><i class="fa-solid fa-link"></i>Live</button></a> 
+    </div>
+            </div>
+          
+           
+            
+        </div>
+      </section>
+
+      <!--===== Education =====-->
+      <section class="contact section" id="education">
+        <h2 class="section-title">Education</h2>
+
+        <div class="education_container"> 
+        <div class="education__div_left">
+    <div class="ed_div">
+      <h2>Full Stack Web Development</h2>
+      <h4>Masai School, Bangalore</h4>
+    <div class="education_detail">
+      <p>Worked extensively on,</p>
+      <p>  - MERN Stack
+      </p>
+      <p>  - Data Structure and Algorithms
+      </p>
+      <p>- Soft skills</p>
+    </div>
+    </div>
+    <div class="education_icon">
+      <i id="ed_icon"class='bx bxs-book-reader'></i><span class="ed_span">December, 2023 - Present</span>
+    </div>
+        </div>
+        <div class="education__div_right">
+          <div class="education_icon">
+            <i id="ed_icon"class='bx bxs-book-reader'></i><span class="ed_span">August, 2019 - July,2023</span>
+          </div>
+          <div class="ed_right">
+            <h2>BTech in CSE</h2>
+            <h4>BPPIMT Kolkata</h4>
+            <p>CGPA-9.2
+            </p>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact_left">
+            <h2>Dont be a stranger!</h2>
+            <h3>Let's connect!</h3>
+            <br>
+            <a href="mailto:amritchandrakumar123@gmail.com"><i class='bx bxs-envelope'></i>amritchandrakumar123@gmail.com </a> <br>
+           <a href="tel:+918102343042"><i class='bx bxs-phone'></i>+91 8102343042</a> 
+           <div class="contact_icon">
+             <a href="https://github.com/amritchandra" target="_blank"><i class='bx bxl-github skills__icon'></i></a> 
+             <a href="https://www.linkedin.com/in/amrit-chandra-kumar-dev/" target="_blank"><i class='bx bxl-linkedin skills__icon'></i></a> 
+            
+            </div>
+            </div>
+         <div class="contact_right">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Submit"
+              class="contact__button button"
+            />
+          </form>
+         </div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Amrit chandra kumar</p>
+      <div class="footer__social">
+        
+        <!-- <a href="https://twitter.com/ynniraj_" target="_blank" class="footer__icon"><i class="bx bxl-twitter"></i></a> -->
+        <a href="https://www.linkedin.com/in/amrit-chandra-kumar-dev/" target="_blank"><i class='bx bxl-linkedin skills__icon'></i></a> 
+            
+        <a href="https://github.com/amritchandra" target="_blank" class="footer__icon"><i class='bx bxl-github skills__icon'></i></a> 
+      </div>
+      <p class="footer__copy">&#169; Amrit</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
+
